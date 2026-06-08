@@ -14,10 +14,10 @@
             margin: 0;
         }
         .container {
-            max-width: 800px;
+            max-width: 600px;
             margin: 50px auto;
             background: #1f1f1f;
-            padding: 30px;
+            padding: 40px;
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.7);
         }
@@ -33,23 +33,26 @@
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-        .video-responsive {
-            overflow: hidden;
-            padding-bottom: 56.25%;
-            position: relative;
-            height: 0;
-            border-radius: 12px;
+        .play-btn {
+            display: inline-block;
+            background: #ff0000;
+            color: white;
+            text-decoration: none;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: 0.3s;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+            margin: 20px 0;
         }
-        .video-responsive iframe {
-            left: 0;
-            top: 0;
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            border: 0;
+        .play-btn:hover {
+            transform: scale(1.05);
+            background: #cc0000;
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
         }
         .footer {
-            margin-top: 30px;
+            margin-top: 40px;
             font-size: 0.9rem;
             color: #aaaaaa;
         }
@@ -61,13 +64,11 @@
         <h1>ВЛАСНЕ РАДІО</h1>
         <div class="status">● ПРЯМИЙ ЕФІР</div>
         
-        <div class="video-responsive">
-            <iframe 
-                src="https://youtube.com" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-        </div>
+        <p>Натисніть велику кнопку нижче, щоб відкрити радіоефір на YouTube:</p>
+        
+        <a href="https://youtube.com" target="_blank" class="play-btn">
+            ▶️ СЛУХАТИ РАДІО
+        </a>
 
         <div class="footer">
             <p>Джерело звуку: Nokia через OBS Studio. Без обмежень кількості слухачів.</p>
