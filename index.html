@@ -1,50 +1,230 @@
-<li>Стилі: Поп, Клубна, Дискотека 90-х</li>
-                    <li>Підходить для будь-яких магнітол</li>
-                    <li>Швидка фірмова флешка</li>
-                </ul>
-                <!-- ЗАМІНІТЬ ПОСИЛАННЯ НА СВІЙ TELEGRAM АБО VIBER -->
-                <a href="https://t.me" target="_blank" class="order-btn">ЗАМОВИТИ</a>
-            </div>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ексклюзивна флешка з піснями Олега Інкаєва</title>
+<style>
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #0a0a0a;
+color: #ffffff;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+header {
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('https://unsplash.com') center/cover no-repeat;
+padding: 100px 20px;
+box-shadow: 0 4px 30px rgba(0,0,0,0.8);
+}
+header h1 {
+margin: 0;
+font-size: 3rem;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #ffffff;
+text-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+}
+header p {
+margin: 15px 0 0 0;
+font-size: 1.4rem;
+color: #00ff88;
+font-weight: bold;
+}
+.container {
+max-width: 900px;
+margin: 60px auto;
+padding: 0 20px;
+}
+.product-section {
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+align-items: center;
+background: #141414;
+padding: 40px;
+border-radius: 25px;
+border: 1px solid #222;
+box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+}
+.product-image {
+flex: 1;
+min-width: 280px;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+.product-image img {
+width: 100%;
+height: auto;
+display: block;
+}
+.product-info {
+flex: 1;
+min-width: 280px;
+text-align: left;
+}
+.product-info h2 {
+font-size: 2rem;
+margin-top: 0;
+color: #ffffff;
+}
+.badge {
+display: inline-block;
+background: #333;
+color: #00ff88;
+padding: 5px 15px;
+border-radius: 50px;
+font-size: 0.85rem;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 15px;
+border: 1px solid #00ff88;
+}
+.features {
+list-style: none;
+padding: 0;
+margin: 20px 0;
+color: #bbbbbb;
+font-size: 1.1rem;
+}
+.features li {
+margin-bottom: 12px;
+display: flex;
+align-items: center;
+}
+.features li::before {
+content: "✦";
+color: #00ff88;
+font-weight: bold;
+margin-right: 10px;
+}
+.price {
+font-size: 2.2rem;
+font-weight: bold;
+color: #ffffff;
+margin: 25px 0;
+}
+.cta-button {
+display: inline-block;
+background: linear-gradient(135deg, #00ff88, #00b361);
+color: #000000;
+text-decoration: none;
+padding: 18px 35px;
+font-size: 1.3rem;
+font-weight: bold;
+border-radius: 50px;
+transition: 0.3s;
+box-shadow: 0 5px 20px rgba(0, 255, 136, 0.3);
+width: 100%;
+box-sizing: border-box;
+text-align: center;
+}
+.cta-button:hover {
+transform: translateY(-3px);
+box-shadow: 0 8px 25px rgba(0, 255, 136, 0.5);
+}
+.about-music {
+margin-top: 80px;
+background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.9)), url('https://unsplash.com') center/cover no-repeat;
+padding: 60px 40px;
+border-radius: 25px;
+border: 1px solid #222;
+}
+.about-music h3 {
+font-size: 1.8rem;
+color: #00ff88;
+margin-top: 0;
+}
+.about-music p {
+font-size: 1.15rem;
+line-height: 1.6;
+color: #dddddd;
+max-width: 700px;
+margin: 0 auto;
+}
+footer {
+background: #050505;
+padding: 60px 20px;
+margin-top: 100px;
+border-top: 1px solid #111;
+}
+footer h2 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+.phone-link {
+color: #00ff88;
+font-size: 2.2rem;
+text-decoration: none;
+font-weight: bold;
+display: inline-block;
+margin: 20px 0;
+transition: 0.3s;
+}
+.phone-link:hover {
+color: #ffffff;
+text-shadow: 0 0 15px rgba(0, 255, 136, 0.6);
+}
+.shipping-info {
+color: #888888;
+font-size: 1rem;
+margin-top: 15px;
+}
+</style>
+</head>
+<body>
 
-            <!-- КАРТКА 2 -->
-            <div class="card">
-                <h3>🔥 Мега-Збірка (64 ГБ)</h3>
-                <p>Максимальна колекція музики на всі випадки життя від ретро до сучасних хітів.</p>
-                <div class="price">500 грн</div>
-                <ul class="features">
-                    <li>Понад 1200 треків, сортованих по папках</li>
-                    <li>Усі популярні жанри в одному місці</li>
-                    <li>Ідеально для гучних вечірок та свят</li>
-                    <li>Надійна флешка великого об'єму</li>
-                </ul>
-                <a href="https://t.me" target="_blank" class="order-btn">ЗАМОВИТИ</a>
-            </div>
+<header>
+<h1>Творчість в одному дотику</h1>
+<p>Авторські пісні Олега Інкаєва на фірмовому носії</p>
+</header>
 
-            <!-- КАРТКА 3 -->
-            <div class="card">
-                <h3>🎵 Індивідуальна збірка</h3>
-                <p>Запишемо саме ті пісні та жанри, які любите саме ви. Повний ексклюзив.</p>
-                <div class="price">Від 400 грн</div>
-                <ul class="features">
-                    <li>Об'єм флешки на ваш вибір (16/32/64 ГБ)</li>
-                    <li>Складаємо плейлист разом з вами</li>
-                    <li>Чистий звук, без реклами та вірусів</li>
-                    <li>Ідеальний варіант на подарунок</li>
-                </ul>
-                <a href="https://t.me" target="_blank" class="order-btn">ОБГОВОРИТИ</a>
-            </div>
-        </div>
-    </div>
+<div class="container">
 
-    <div class="contacts">
-        <h2>Є запитання? Зв'яжіться зі мною прямо зараз!</h2>
-        <p>Швидка відправка Новою Поштою або Укрпоштою по всій Україні.</p>
-        
-        <!-- ВКАЖІТЬ СВОЇ РЕАЛЬНІ КОНТАКТИ НИЖЧЕ -->
-        <a href="https://t.me" target="_blank" class="contact-link">💬 Telegram</a>
-        <a href="viber://chat?number=%2B380XXXXXXXXX" class="contact-link">📱 Viber</a>
-        <p style="color: #888; margin-top: 20px;">Телефон для довідок: +380 XX XXX XX XX</p>
-    </div>
+<div class="product-section">
+<!-- ЗОБРАЖЕННЯ ЧОРНОЇ МЕТАЛЕВОЇ ФЛЕШКИ -->
+<div class="product-image">
+<img src="https://unsplash.com" alt="Чорна металева флешка">
+</div>
+
+<div class="product-info">
+<div class="badge">Преміум видання</div>
+<h2>Металева флешка (Чорний мат)</h2>
+<p style="color: #aaa; font-size: 1.05rem;">Елегантний, надійний та стильний аксесуар із міцного металу. Ідеально підходить для прослуховування в автомобілі, на домашній аудіосистемі чи комп'ютері.</p>
+
+<ul class="features">
+<li>Повна колекція пісень у моєму особистому виконанні</li>
+<li>Максимальна студійна якість звуку (без стиснення)</li>
+<li>Стильний монолітний корпус чорного кольору</li>
+<li>Захист від ударів, вологи та магнітних полів</li>
+</ul>
+
+<div class="price">Ціна договірна</div>
+
+<a href="tel:+380667946419" class="cta-button">ЗАМОВИТИ ЗАРАЗ</a>
+</div>
+</div>
+
+<div class="about-music">
+<h3>Про музику та виконання</h3>
+<p>Кожна пісня в цій збірці — це живі емоції, записані на професійній студії. Справжнє виконання, яке торкається душі. Купуючи цю флешку, ви отримуєте не просто файли, а ексклюзивну музичну колекцію безпосередньо від автора, оформлену у преміальному залізному корпусі.</p>
+</div>
+
+</div>
+
+<footer>
+<h2>Бажаєте зробити замовлення?</h2>
+<p>Натисніть на номер або зателефонуйте для особистого спілкування:</p>
+
+<!-- ВАШ НОМЕР ТЕЛЕФОНУ -->
+<a href="tel:+380667946419" class="phone-link">066 794 64 19</a>
+
+<p class="shipping-info">Доставка Новою Поштою та Укрпоштою по всій Україні.</p>
+<p style="color: #444; font-size: 0.85rem; margin-top: 40px;">© 2026 Олег Інкаєв. Всі права захищено.</p>
+</footer>
 
 </body>
 </html>
